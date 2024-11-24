@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+    align-items: stretch;
+    padding: 20px;
+    flex-wrap: nowrap; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 10px; 
+    align-items: stretch;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.popis{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.name{
+    display: flex;
+    flex-grow: 1;
+    text-align: left;
+    flex-wrap: wrap;
+    font-weight: 550;
+}
+.stock-status {
+    display: flex;
+    justify-content: left;
+    font-size: 0.9em;
+    color: green;
+    padding-top: 10px;
+}
+
+.cena{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.puvodnicena{
+    display: flex;
+    justify-content: left;
+    font-size: 0.8em;
+    text-decoration: line-through;
+    color: #999;
+}
+
+.sleva{
+    font-size: 1.2em;
+    font-weight: 550;
+}
+
+.card button {
+    display: flex;
+    justify-content: right;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card button:hover {
+    background-color: #45a049;
+}
+
+.card__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
